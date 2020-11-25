@@ -11,7 +11,7 @@ void main() {
   //RegExp arama = RegExp(r"z[^ai]r");// z ile basla r ile bitir arasinada a,o,u,i karakterlerinden biri varsa getir.
   //RegExp arama = RegExp(r"[z[^ai]r]");// z ile basla r ile bitir arasinada a,o,u,i karakterlerinden biri varsa getir..
   //RegExp arama = RegExp(r"4{2,4}");// 4 ifadesi 2 ve 4 araliginda tekrar etmeli
-  RegExp arama = RegExp(r"4+");// 3 Rakami 3 kere tekrar edecek
+  RegExp arama = RegExp(r"4+");// 4 Rakamı, 1 veya daha fazla olanları getir.
   //allMatches = Bütün eşleşmeler demek
   //arama kuralina gore istedigim yerde arar.
   //Liste olarak dondurmesini istedik.
